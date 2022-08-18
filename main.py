@@ -76,7 +76,7 @@ def shutdown():
         exit()
 
 if __name__ == "__main__":
-    config = settings.check_toml("utils/.config.template.toml", "config.toml")
+    config = settings.check_toml("C:\Users\seyie\OneDrive\Desktop\Bot\RedditVideoMakerBot\utils.config.template.toml", "config.toml")
     config is False and exit()
     try:
         if config["settings"]["times_to_run"]:
